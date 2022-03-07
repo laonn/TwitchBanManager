@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lauxlib.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_alloc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_arch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm_arm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm_mips.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm_ppc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm_x86.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_bc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_bcdump.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_carith.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ccall.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ccallback.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_cconv.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_cdata.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_char.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_clib.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_cparse.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_crecord.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ctype.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_debug.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_def.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_dispatch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_emit_arm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_emit_mips.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_emit_ppc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_emit_x86.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_err.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_errmsg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ff.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ffrecord.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_frame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_func.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_gc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_gdbjit.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ir.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ircall.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_iropt.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_jit.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_lex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_lib.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_mcode.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_meta.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_obj.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_parse.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_record.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_snap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_state.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_str.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_strscan.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_tab.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target_arm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target_mips.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target_ppc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target_x86.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_trace.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_traceerr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_udata.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_vm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_vmevent.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lua.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lua.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\luaconf.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\luajit.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lualib.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBInterface.lua">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="UserData.lua">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>

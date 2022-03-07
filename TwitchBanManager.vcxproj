@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{61404fdb-06da-4083-ba9a-f5a7e636d539}</ProjectGuid>
+    <RootNamespace>TwitchBanManager</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Data\Code\VS\TwitchBanManager\LuajitHeader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\Data\Code\VS\TwitchBanManager\LuajitHeader;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lauxlib.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_alloc.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_arch.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm_arm.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm_mips.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm_ppc.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_asm_x86.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_bc.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_bcdump.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_carith.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ccall.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ccallback.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_cconv.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_cdata.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_char.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_clib.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_cparse.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_crecord.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ctype.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_debug.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_def.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_dispatch.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_emit_arm.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_emit_mips.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_emit_ppc.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_emit_x86.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_err.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_errmsg.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ff.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ffrecord.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_frame.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_func.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_gc.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_gdbjit.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ir.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_ircall.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_iropt.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_jit.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_lex.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_lib.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_mcode.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_meta.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_obj.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_parse.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_record.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_snap.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_state.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_str.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_strscan.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_tab.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target_arm.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target_mips.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target_ppc.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_target_x86.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_trace.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_traceerr.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_udata.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_vm.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lj_vmevent.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lua.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lua.hpp" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\luaconf.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\luajit.h" />
+    <ClInclude Include="C:\Users\LeeHackSun\Desktop\LuajitHeader\lualib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBInterface.lua" />
+    <None Include="UserData.lua" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
